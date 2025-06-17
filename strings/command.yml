@@ -1,0 +1,114 @@
+# Bot Komutları
+
+PING_COMMAND : ["ping"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["help", "yardim", "yardım"]
+SETTINGS_COMMAND : ["settings", "setting", "ayarlar", "ayar"]
+RELOAD_COMMAND : ["admincache", "reload"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["stats", "statss"]
+LANGUAGE_COMMAND : ["lang", "langs"]
+
+# Play Komutları
+
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "voynat", "playforce", "vplayforce", "cplayforce", "hemenoynat", "cvplayforce", "oynat", "o", "pl"]
+PLAYMODE_COMMAND : ["playmode", "oynatmod"]
+CHANNELPLAY_COMMAND : ["channelplay", "koynat", "kanaloynat", "cplay"]
+STREAM_COMMAND : ["stadsfream", "cstfewream", "strfewaeamforce"]
+
+#Playlist Komutları
+
+PLAYLIST_COMMAND : ["playlist"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "listemisil"]
+
+
+# Queue Komutları
+
+QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying", "sira"]
+SONG_COMMAND : ["bul", "song", "indir"]
+LYRICS_COMMAND : ["lyrics", "sarkisozu", "sarkısözü", "sarkisözü"]
+
+
+# Admin Komutları
+
+AUTH_COMMAND : ["auth", "yetkilendir"]
+UNAUTH_COMMAND : ["unauth", "yetkial"]
+AUTHUSERS_COMMAND : ["authusers", "yetkililer"]
+PAUSE_COMMAND : ["pause", "cpause", "duraklat"]
+RESUME_COMMAND : ["resume", "cresume", "devam"]
+MUTE_COMMAND : ["muafgte", "cmuwfaete"]
+UNMUTE_COMMAND : ["unmwaefute", "cunmfawute"]
+STOP_COMMAND : [ "end", "cend", "ckapat", "kapat", "son", "cson"]
+SKIP_COMMAND : ["skip", "cskip", "atla", "a"]
+SHUFFLE_COMMAND : ["karistir", "cshuffle", "karıştır"]
+LOOP_COMMAND : ["loop", "cloop", "dongu", "döngü", "tekrar"]
+SEEK_COMMAND : ["ilerisar", "cseek", "gerisar", "seekback", "cseekback"]
+RESTART_COMMAND : ["restart", "rr"]
+
+
+# Sudo Komutları
+
+ADDSUDO_COMMAND : ["addsudo"]
+DELSUDO_COMMAND : ["dellsudo"]
+SUDOUSERS_COMMAND : ["sudolist"]
+
+# Reklam Komutları
+
+BROADCAST_COMMAND : ["reklam" ]
+
+#Ban Komutları
+
+BLACKLISTCHAT_COMMAND : ["blacklistchat", "grupengelle"]
+WHITELISTCHAT_COMMAND : ["whitelistchat", "grupengelkaldır"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat", "engelliler"]
+
+# Video Komutları
+
+VIDEOLIMIT_COMMAND : ["set_video_limit", "videolimit"]
+VIDEOMODE_COMMAND : ["videomode"]
+
+#Bakım Komutları
+
+MAINTENANCE_COMMAND : ["maintenance", "bakim"]
+LOGGER_COMMAND : ["logger"]
+
+#Heroku
+
+GETLOG_COMMAND : ["get_log"]
+GETVAR_COMMAND : ["geetfew_efwvar"]
+DELVAR_COMMAND : ["defwel_var"]
+SETVAR_COMMAND : ["sefwet_var"]
+USAGE_COMMAND : ["usafwage"]
+VARS_COMMAND : ["vafawrs", "cfg"]
+
+
+#Basic Bot Komutları
+
+UPDATE_COMMAND : ["update", "güncelle"]
+REBOOT_COMMAND : ["reboot", "yenidenbaslat"]
+AUTOEND_COMMAND : ["autoend"]
+
+#Pro Komutları
+AUTHORIZE_COMMAND : ["pro"]
+UNAUTHORIZE_COMMAND : ["unpro"]
+AUTHORIZED_COMMAND : ["prolar"]
+
+# Engelleyici Komutları
+BLOCK_COMMAND : ["block"]
+UNBLOCK_COMMAND : ["unblock"]
+BLOCKED_COMMAND : ["blockedusers"]
+
+#Hız Testi Komutları
+
+SPEEDTEST_COMMAND : ["speedtest", "spd", "speed"]
+
+# Sesli Sohbet Komutları
+
+ACTIVEVC_COMMAND : ["activevoice", "aktifses"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "aktifvideo"]
+
+#Global Komutları
+
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbannedusers"]
